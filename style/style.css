@@ -7,8 +7,6 @@ html{
     scroll-behavior: smooth;
 }
 
-/*change font size to em*/
-
 h1{
     font-family:Arial, Helvetica, sans-serif;
     text-align: center;
@@ -27,8 +25,6 @@ h3{
     margin-top: 10px;
 }
 
-/*navbar*/
-
 .navli{
     display: inline;
     text-align: center;
@@ -43,16 +39,12 @@ h3{
     transition-duration: 0.3s;
 }
 
-/*text*/
-
 p, .list{
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 1em;
     margin: 10px;
     margin-left: 0px;
 }
-
-/*table*/
 
 table{
     width: 40%;
@@ -61,8 +53,6 @@ table{
     margin: 2px;
     margin-left: 0px;
 }
-
-/*form*/
 
 label{
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -102,7 +92,6 @@ input:focus{
     border: 3px solid #6a8562;
 }
 
-/*links*/
 
 a{
     text-decoration: none;

@@ -3,9 +3,9 @@
     box-sizing: border-box;
 }
 
-html {
+html{
     scroll-behavior: smooth;
-  }
+}
 
 /*change font size to em*/
 
@@ -14,7 +14,7 @@ h1{
     text-align: center;
     font-size: 3em;
     color: #3e5438;
-    margin-top: 25px;
+    margin: 25px
 }
 
 h2{
@@ -24,6 +24,7 @@ h2{
 
 h3{
     font-family:Arial, Helvetica, sans-serif;
+    margin-top: 10px;
 }
 
 /*navbar*/
@@ -32,12 +33,9 @@ h3{
     display: inline;
     text-align: center;
     border: 1px solid #3e5438;
+    border-radius: 10px;
     padding: 12px;
     margin: 12px;
-}
-
-.current{
-    background:#6a856249; 
 }
 
 .navli:hover{
@@ -47,24 +45,74 @@ h3{
 
 /*text*/
 
-p, label, .list, .extable{
+p, .list{
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 1em;
-    margin: 15px;
+    margin: 10px;
     margin-left: 0px;
 }
 
-input:focus{
-    background: #6a856224;
+/*table*/
+
+table{
+    width: 40%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    margin: 2px;
+    margin-left: 0px;
 }
 
-#bio{
-    float: right;
+/*form*/
+
+label{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    margin: 15px 4px;
 }
+
+input{
+    width: 25%;
+    padding: 5px 12px;
+    margin: 10px 4px;
+    box-sizing: border-box;
+}
+
+#message{
+    width: 50%;
+    resize: horizontal;
+}
+
+#sendform{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    width: 10%;
+    padding: 7px 14px;
+    margin: 12px 6px;
+    background-color: #6a856263;
+}
+
+#sendform:hover{
+    background-color: #6a8562;
+    transition-duration: 0.3s;
+}
+
+
+input:focus{
+    background: #6a856224;
+    border: 3px solid #6a8562;
+}
+
+/*links*/
 
 a{
     text-decoration: none;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #253221;
+}
+
+.footlink{
+    text-decoration: underline;
+    padding: 10px;
 }
 
 main{
@@ -78,4 +126,10 @@ footer{
     text-align: center;
     padding: 25px;
     background-color: #6a856263;
+}
+
+#profilepic{
+    width: 250px;
+    height: 250px;
+    float: right;
 }

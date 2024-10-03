@@ -9,32 +9,34 @@
   <body>
     <header>
       <a href="index.html"><h1>Karolina Malmqvist</h1></a>
-      <nav class="navmeny">
-        <a href="index.html">Projects</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
+      <nav>
+        <ul>
+          <li class="navli">
+            <a href="index.html">Projects</a>
+          </li>
+          <li class="navli"><a href="about.html">About</a></li>
+          <li class="navli"><a href="contact.html">Contact</a></li>
+        </ul>
       </nav>
     </header>
 
     <main>
-      <h2>About</h2>
       <img
         src="pics/profilepic.png"
-        width="150"
-        height="150"
-        alt="Profil picture of Karolina Malmqvist"
+        alt="Profile picture of Karolina Malmqvist"
+        id="profilepic"
       />
-
-      <!--Ska den vara skriven i tredje person?-->
-      <p id="bio">
-        My name is Karolina Malmqvist. I am a student living in Sweden.
+      <h2>About Me</h2>
+      <p>
+        My name is Karolina Malmqvist and I am a 23 year old student living in
+        Stockholm, Sweden. <br />
+        I have always had a big interest for art and my goals are to take that
+        to the next level.
       </p>
 
       <h2>Experiance</h2>
+      <h3>Courses</h3>
       <table class="extable">
-        <caption>
-          <h3>Courses</h3>
-        </caption>
         <tr>
           <td>Narrativ Design</td>
           <td>Malmö Universitet</td>
@@ -65,6 +67,7 @@
           <li>Illustrator</li>
         </ul>
         <li>Color Theory</li>
+        <li>Photography</li>
       </ul>
     </main>
 
@@ -78,7 +81,7 @@
             alt="Instagram icon"
           />
         </a>
-        <a href="https://github.com/" target="_blank">
+        <a href="https://github.com/KarroHere" target="_blank">
           <img src="pics/github.png" width="30" height="30" alt="Github icon" />
         </a>
 
@@ -93,13 +96,13 @@
       </nav>
 
       <nav>
-        <a href="index.html">Projects</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
+        <a href="index.html" class="footlink">Projects</a>
+        <a href="about.html" class="footlink">About</a>
+        <a href="contact.html" class="footlink">Contact</a>
       </nav>
 
       <nav>
-        <p>All images are &copy; Karolina Malmqvist 2024</p>
+        <p><small>All images are &copy; Karolina Malmqvist 2024</small></p>
       </nav>
     </footer>
   </body>

@@ -3,20 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <title>Karolina Malmqvist</title>
-    <!--ha med meta tag?-->
     <link rel="stylesheet" href="style/style.css" />
   </head>
 
   <body>
     <header>
       <a href="index.html"><h1>Karolina Malmqvist</h1></a>
-
-      <!--line around box. Fill current box-->
-      <!--Är knappar ett bättree val här?-->
       <nav>
         <ul>
           <li class="navli">
-            <a href="index.html" class="current">Projects</a>
+            <a href="index.html">Projects</a>
           </li>
           <li class="navli"><a href="about.html">About</a></li>
           <li class="navli"><a href="contact.html">Contact</a></li>
@@ -25,12 +21,34 @@
     </header>
 
     <main>
-      <!--Ska det vara articals? Divs?-->
-      <h2>'Creating a City'</h2>
+      <h2>List of project-names</h2>
+      <h3>Click to learn more:</h3>
+      <ul>
+        <li><a href="#cac">Create a City</a></li>
+        <li><a href="#ca">Concept Art</a></li>
+        <li><a href="#sketches">Sketches</a></li>
+      </ul>
+
+      <h2 id="cac">'Creating a City'</h2>
       <p>2023</p>
-      <img src="projects/1/city.png" width="" height="250" alt="" />
-      <img src="projects/1/forest.png" width="" height="250" alt="" />
-      <img src="projects/1/trees.png" width="" height="250" alt="" />
+      <img
+        src="projects/1/city.png"
+        width=""
+        height="250"
+        alt="Painting of city, viewed from below"
+      />
+      <img
+        src="projects/1/forest.png"
+        width=""
+        height="250"
+        alt="Painting of a hill with evergreens growing"
+      />
+      <img
+        src="projects/1/trees.png"
+        width=""
+        height="250"
+        alt="Painting of forest with gap in the ground"
+      />
       <p>Made in Photoshop</p>
       <p>
         <i>'Creating a City'</i> was a project made in 2023. The goal was to
@@ -38,11 +56,26 @@
         <i>"was in the same world"</i> yet showcase differant natures.
       </p>
 
-      <h2>'Concept Art'</h2>
-      <p>2023</p>
-      <img src="projects/2/field.png" width="200" height="" alt="" />
-      <img src="projects/2/mashroomtree.png" width="200" height="" alt="" />
-      <img src="projects/2/ruins.png" width="200" height="" alt="" />
+      <h2 id="ca">'Concept Art'</h2>
+      <p>2022</p>
+      <img
+        src="projects/2/field.png"
+        width="200"
+        height=""
+        alt="Painted closeup of purple flowers"
+      />
+      <img
+        src="projects/2/mashroomtree.png"
+        width="200"
+        height=""
+        alt="Painted yellow mashrooms on tree"
+      />
+      <img
+        src="projects/2/ruins.png"
+        width="200"
+        height=""
+        alt="Painted broken down structure in mountainwall"
+      />
       <p>Made in Photoshop</p>
       <p>
         <i>'Concept Art'</i> was a project to showcase differant color-palettes
@@ -50,20 +83,38 @@
         change.
       </p>
 
-      <h2>'Sketches'</h2>
+      <h2 id="sketches">'Sketches'</h2>
       <p>2022-2024</p>
-      <img src="projects/townsketch.png" width="" height="250" alt="" />
-      <img src="" width="" height="" alt="" />
-      <img src="" width="" height="" alt="" />
+      <img
+        src="projects/3/townsketch.png"
+        width=""
+        height="300"
+        alt="Messy drawing of a citystreet"
+      />
+      <img
+        src="projects/3/housesketch.jpg"
+        width=""
+        height="300"
+        alt="Detailed drawing of an old house"
+      />
+      <img
+        src="projects/3/mansketch.png"
+        width=""
+        height="300"
+        alt="Graphite sketch of man on chair smoking a cigarett"
+      />
       <p>Made with inkmarkers</p>
       <p>
         <i>'Sketches'</i> are a collection of quickly drawn images to capture a
-        moment or explore an art ideas
+        moment or explore an art ideas.
       </p>
+
+      <br />
+
+      <a href="#top">Click Here to Scroll back to the Top</a>
     </main>
 
     <footer>
-      <!--Background-->
       <nav>
         <a href="https://www.instagram.com/karrohere/" target="_blank">
           <img
@@ -73,7 +124,7 @@
             alt="Instagram icon"
           />
         </a>
-        <a href="https://github.com/" target="_blank">
+        <a href="https://github.com/KarroHere" target="_blank">
           <img src="pics/github.png" width="30" height="30" alt="Github icon" />
         </a>
 
@@ -88,13 +139,15 @@
       </nav>
 
       <nav>
-        <a href="index.html">Projects</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
+        <a href="index.html" class="footlink">Projects</a>
+        <a href="about.html" class="footlink">About</a>
+        <a href="contact.html" class="footlink">Contact</a>
       </nav>
 
       <nav>
-        <p>All images are &copy; Karolina Malmqvist 2024</p>
+        <p><small>All images are &copy; Karolina Malmqvist 2024</small></p>
+        <a href=""><small>Privacy Policy</small></a>
+        <a href=""><small>Terms of Service</small></a>
       </nav>
     </footer>
   </body>

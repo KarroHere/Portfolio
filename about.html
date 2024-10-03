@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
     <title>About - Karolina Malmqvist</title>
+    <link rel="stylesheet" href="style/style.css" />
   </head>
 
   <body>
     <header>
       <a href="index.html"><h1>Karolina Malmqvist</h1></a>
-      <nav id="horizontal">
+      <nav class="navmeny">
         <a href="index.html">Projects</a>
         <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
@@ -15,7 +17,7 @@
     </header>
 
     <main>
-      <h1>About</h1>
+      <h2>About</h2>
       <img
         src="pics/profilepic.png"
         width="150"
@@ -23,21 +25,51 @@
         alt="Profil picture of Karolina Malmqvist"
       />
 
-      <!--Information-->
       <!--Ska den vara skriven i tredje person?-->
-      <article>
-        <p>My name is Karolina Malmqvist. I am a student living in Sweden.</p>
-      </article>
+      <p id="bio">
+        My name is Karolina Malmqvist. I am a student living in Sweden.
+      </p>
 
-      <!--Skills and Experiance-->
-      <article>
-        <h2>Skills & Experiance</h2>
-        <p>Abobe</p>
-      </article>
+      <h2>Experiance</h2>
+      <table class="extable">
+        <caption>
+          <h3>Courses</h3>
+        </caption>
+        <tr>
+          <td>Narrativ Design</td>
+          <td>Malmö Universitet</td>
+          <td>2022</td>
+        </tr>
+        <tr>
+          <td>Skissteknik</td>
+          <td>Karlstad Universitet</td>
+          <td>2022</td>
+        </tr>
+        <tr>
+          <td>Färglära</td>
+          <td>Högskolan i Borås</td>
+          <td>2021</td>
+        </tr>
+        <tr>
+          <td>Modeskiss och Illustation</td>
+          <td>Högskolan i Borås</td>
+          <td>2021</td>
+        </tr>
+      </table>
+
+      <h2>Skills</h2>
+      <ul class="list">
+        <li>Adobe</li>
+        <ul>
+          <li>Photoshop</li>
+          <li>Illustrator</li>
+        </ul>
+        <li>Color Theory</li>
+      </ul>
     </main>
 
     <footer>
-      <nav id="horizontal">
+      <nav>
         <a href="https://www.instagram.com/karrohere/" target="_blank">
           <img
             src="pics/instagram.png"
@@ -60,13 +92,13 @@
         </a>
       </nav>
 
-      <nav id="horizontal">
+      <nav>
         <a href="index.html">Projects</a>
         <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
       </nav>
 
-      <nav id="horizontal">
+      <nav>
         <p>All images are &copy; Karolina Malmqvist 2024</p>
       </nav>
     </footer>

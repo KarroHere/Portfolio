@@ -1,61 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!--ha med meta tag?-->
+    <meta charset="UTF-8" />
     <title>Karolina Malmqvist</title>
     <!--ha med meta tag?-->
+    <link rel="stylesheet" href="style/style.css" />
   </head>
 
   <body>
     <header>
       <a href="index.html"><h1>Karolina Malmqvist</h1></a>
-      <nav id="horizontal">
-        <a href="index.html">Projects</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
+
+      <!--line around box. Fill current box-->
+      <!--Är knappar ett bättree val här?-->
+      <nav>
+        <ul>
+          <li class="navli">
+            <a href="index.html" class="current">Projects</a>
+          </li>
+          <li class="navli"><a href="about.html">About</a></li>
+          <li class="navli"><a href="contact.html">Contact</a></li>
+        </ul>
       </nav>
     </header>
 
     <main>
-      <!--3x3 picture grid. Take to the project clicked on-->
-      <!--Alt. Slå ihop projects with this page. När man klickar på en bild kommer mer text ut under som beskriver?-->
+      <!--Ska det vara articals? Divs?-->
+      <h2>'Creating a City'</h2>
+      <p>2023</p>
+      <img src="projects/1/city.png" width="" height="250" alt="" />
+      <img src="projects/1/forest.png" width="" height="250" alt="" />
+      <img src="projects/1/trees.png" width="" height="250" alt="" />
+      <p>Made in Photoshop</p>
+      <p>
+        <i>'Creating a City'</i> was a project made in 2023. The goal was to
+        create a landscape what would work together as if it
+        <i>"was in the same world"</i> yet showcase differant natures.
+      </p>
 
-      <!--Name of projects with smooth scrolling-->
-      <!--Ska det vara articals?-->
-      <article>
-        <h1>Creating a City</h1>
-        <img src="projects/1/city.png" width="" height="250" alt="" />
-        <img src="projects/1/forest.png" width="" height="250" alt="" />
-        <img src="projects/1/trees.png" width="" height="250" alt="" />
-        <p>Text description</p>
-        <p>2023</p>
-        <p>Made in Photoshop</p>
-      </article>
+      <h2>'Concept Art'</h2>
+      <p>2023</p>
+      <img src="projects/2/field.png" width="200" height="" alt="" />
+      <img src="projects/2/mashroomtree.png" width="200" height="" alt="" />
+      <img src="projects/2/ruins.png" width="200" height="" alt="" />
+      <p>Made in Photoshop</p>
+      <p>
+        <i>'Concept Art'</i> was a project to showcase differant color-palettes
+        in a picture to show how they could be used and how the mood could
+        change.
+      </p>
 
-      <article>
-        <h1>Concept Art</h1>
-        <img src="projects/2/field.png" width="200" height="" alt="" />
-        <img src="projects/2/mashroomtree.png" width="200" height="" alt="" />
-        <img src="projects/2/ruins.png" width="200" height="" alt="" />
-        <p>Text description</p>
-        <p>2023</p>
-        <p>Made in Photoshop</p>
-      </article>
-
-      <article>
-        <h1>Sketches</h1>
-        <img src="projects/townsketch.png" width="" height="250" alt="" />
-        <img src="" width="" height="" alt="" />
-        <img src="" width="" height="" alt="" />
-        <p>Text description</p>
-        <p>2022-2024</p>
-        <p>Made with inkmarkers</p>
-      </article>
+      <h2>'Sketches'</h2>
+      <p>2022-2024</p>
+      <img src="projects/townsketch.png" width="" height="250" alt="" />
+      <img src="" width="" height="" alt="" />
+      <img src="" width="" height="" alt="" />
+      <p>Made with inkmarkers</p>
+      <p>
+        <i>'Sketches'</i> are a collection of quickly drawn images to capture a
+        moment or explore an art ideas
+      </p>
     </main>
 
     <footer>
-      <!--Fixa svarta strecken mellan ikonerna-->
-      <nav id="horizontal">
+      <!--Background-->
+      <nav>
         <a href="https://www.instagram.com/karrohere/" target="_blank">
           <img
             src="pics/instagram.png"
@@ -78,13 +87,13 @@
         </a>
       </nav>
 
-      <nav id="horizontal">
+      <nav>
         <a href="index.html">Projects</a>
         <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
       </nav>
 
-      <nav id="horizontal">
+      <nav>
         <p>All images are &copy; Karolina Malmqvist 2024</p>
       </nav>
     </footer>
